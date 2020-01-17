@@ -9,5 +9,8 @@ class apache::params {
     'Debian': {
       $install_name = 'apache2'
     }
+    default: {
+      $install_name = 'apache2'
+    }
   }
 }
