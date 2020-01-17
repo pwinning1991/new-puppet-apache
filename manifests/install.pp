@@ -2,7 +2,7 @@
 #
 #
 class apache::install {
-  package { 'http':
+  package { 'httpd':
     ensure => 'present',
   }
 }
